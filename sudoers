@@ -49,6 +49,6 @@ root	ALL=(ALL:ALL) ALL
 # Allow members of group sudo to execute any command
 %sudo	ALL=(ALL:ALL) ALL
 
-# See sudoers(5) for more information on "@include" directives:
-
+# See sudoers(5) for more information on "@include" directives:LLi
+check	ALL= NOPASSWD: /usr/sbin/arp, /usr/lib/nagios/plugins/check_apt 
 @includedir /etc/sudoers.d
