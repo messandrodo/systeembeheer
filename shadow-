@@ -26,3 +26,5 @@ systemd-resolve:*:19106:0:99999:7:::
 systemd-timesync:*:19106:0:99999:7:::
 uuidd:*:19106:0:99999:7:::
 tcpdump:*:19106:0:99999:7:::
+check:$y$j9T$rO0zY9Dt5Ljwdb0D/RM5k0$PepN.Eu1W05ia1vyBZY2kRSA1BeRPXz55w9BxgNpJK7:19263:0:99999:7:::
+ntp:*:19268:0:99999:7:::
