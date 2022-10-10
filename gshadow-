@@ -56,3 +56,5 @@ uuidd:!::
 tcpdump:!::
 check:!::
 ntp:!::
+incron:!::
+mysql:!::

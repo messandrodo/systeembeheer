@@ -57,3 +57,5 @@ tcpdump:x:117:
 check:x:1000:
 ntp:x:118:
 incron:x:119:
+mysql:x:120:
+bind:x:121:
