@@ -4,7 +4,7 @@
 $TTL	900
 $ORIGIN sander-doggen.sb.uclllabs.be.
 @	IN	SOA	sander-doggen.sb.uclllabs.be. root.sander-doggen.sb.uclllabs.be. (
-		 20 ;Serial
+		 21 ;Serial
 			    900		; Refresh
 			    900		; Retry
 			    900		; Expire

@@ -30,3 +30,7 @@ zone subzoneeiqu8c.sander-doggen.sb.uclllabs.be {
 	type master;
 	file /etc/bind/forward.subzoneeiqu8c.sander-doggen.sb.uclllabs.be;
 };
+zone subzonecoo5wu.sander-doggen.sb.uclllabs.be {
+	type master;
+	file /etc/bind/forward.subzonecoo5wu.sander-doggen.sb.uclllabs.be;
+};
