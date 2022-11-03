@@ -1,0 +1,32 @@
+zone git.sander-doggen.sb.uclllabs.be {
+	type master;
+	file /etc/bind/forward.git.sander-doggen.sb.uclllabs.be;
+};
+zone t.sander-doggen.sb.uclllabs.be {
+	type master;
+	file /etc/bind/forward.t.sander-doggen.sb.uclllabs.be;
+};
+zone test.sander-doggen.sb.uclllabs.be {
+	type master;
+	file /etc/bind/forward.test.sander-doggen.sb.uclllabs.be;
+};
+zone subzoneet2ade.sander-doggen.sb.uclllabs.be {
+	type master;
+	file /etc/bind/forward.subzoneet2ade.sander-doggen.sb.uclllabs.be;
+};
+zone subzonetuj7pe.sander-doggen.sb.uclllabs.be {
+	type master;
+	file /etc/bind/forward.subzonetuj7pe.sander-doggen.sb.uclllabs.be;
+};
+zone foobar.sander-doggen.sb.uclllabs.be {
+	type master;
+	file /etc/bind/forward.foobar.sander-doggen.sb.uclllabs.be;
+};
+zone subzonego0voo.sander-doggen.sb.uclllabs.be {
+	type master;
+	file /etc/bind/forward.subzonego0voo.sander-doggen.sb.uclllabs.be;
+};
+zone subzoneeiqu8c.sander-doggen.sb.uclllabs.be {
+	type master;
+	file /etc/bind/forward.subzoneeiqu8c.sander-doggen.sb.uclllabs.be;
+};

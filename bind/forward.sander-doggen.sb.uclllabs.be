@@ -4,7 +4,7 @@
 $TTL	900
 $ORIGIN sander-doggen.sb.uclllabs.be.
 @	IN	SOA	sander-doggen.sb.uclllabs.be. root.sander-doggen.sb.uclllabs.be. (
-			      5		; Serial
+		 20 ;Serial
 			    900		; Refresh
 			    900		; Retry
 			    900		; Expire
@@ -19,7 +19,14 @@ ns	IN	A	193.191.177.214
 ns1	IN	A	193.191.176.254
 ns2	IN	A	193.191.176.4
 test	IN	A	193.191.177.254
+www1	IN	A	193.191.177.214
+www2	IN	A	193.191.177.214
+mx 	IN	A	193.191.177.214
 ;AAAA
 	IN	AAAA	fe80::bcc2:28ff:fef2:db03
 
+;mx 
+
+
+@         IN      MX      10 mx.sander-doggen.sb.uclllabs.be.
 
