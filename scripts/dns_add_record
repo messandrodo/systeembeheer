@@ -1,0 +1,101 @@
+#! /bin/sh
+
+# opnieuw controlleren of er SUDO word gebruikt
+#if [ ! $(sudo echo 0) ]; then exit; fi
+
+if [ $# -eq 0 ]; then
+        exit 1
+fi
+
+
+if [ $1 = "-t" ]; then
+        case $2 in
+                "A")
+                        if [ $# -eq 5 ]; then
+                                FILE=/etc/bind/forward.$5
+                                if [ -f $FILE ]; then
+                                        echo "Zone file exists"
+                                        echo "$3        IN      A       $4" >> /etc/bind/forward.$5
+
+                                        old=$(grep "Serial" /etc/bind/forward.$5 | tr -dc '0-9')
+                                        new=$((old + 1))
+                                        sed -i "s/.*Serial.*/\t\t $new ;Serial/g" /etc/bind/forward.$5
+                                        rndc reload
+                                        systemctl restart bind9
+                                        exit 1
+                                else
+                                        exit 1
+                                fi
+                                exit 1
+                        else
+                                exit 1
+                        fi
+                ;;
+                "CNAME")
+                        if [ $# -eq 4 ]; then
+                                FILE=/etc/bind/forward.$4
+                                if [ -f "$FILE" ]; then
+
+                                        echo "$3	IN	CNAME   $4." >> /etc/bind/forward.$4
+
+                                        old=$(grep "Serial" /etc/bind/forward.$4 | tr -dc '0-9')
+                                        new=$((old + 1))
+                                        sed -i "s/.*Serial.*/\t\t $new ;Serial/g" /etc/bind/forward.$4
+                                        rndc reload
+                                        systemctl restart bind9
+
+                                        exit 1
+                                else
+                                        exit 1
+                                fi
+                                exit 1
+                        else
+                                exit 1
+                        fi
+                ;;
+                "MX")
+                        if [ $# -eq 5 ]; then
+                                FILE=/etc/bind/forward.$5
+                                if [ -f "$FILE" ]; then
+
+                                        echo "@         IN      MX      10 $3.$5." >> /etc/bind/forward.$5
+                                        echo "$3        IN      A       $4" >> /etc/bind/forward.$5
+
+                                        old=$(grep "Serial" /etc/bind/forward.$5 | tr -dc '0-9')
+                                        new=$((old + 1))
+                                        sed -i "s/.*Serial.*/\t\t $new ;Serial/g" /etc/bind/forward.$5
+                                        rndc reload
+                                        systemctl restart bind9
+
+                                        exit 1
+                                else
+                                        exit 1
+                                fi
+                                exit 1
+                        else
+                                exit 1
+                        fi
+                ;;
+                *) ;;
+        esac
+else
+        if [ $# -eq  3 ]; then
+                FILE=/etc/bind/forward.$3
+                                if [ -f $FILE ]; then
+
+                                        echo "$1        IN      A       $2." >> /etc/bind/forward.$3
+
+                                        old=$(grep "Serial" /etc/bind/forward.$3 | tr -dc '0-9')
+                                        new=$((old + 1))
+                                        sed -i "s/.*Serial.*/\t\t $new ;Serial/g" /etc/bind/forward.$3
+                                        rndc reload
+                                        systemctl restart bind9.service
+                                        exit 1
+                                else
+                                        exit 1
+                                fi
+        exit 1
+        else 
+        	exit 1
+        fi
+fi
