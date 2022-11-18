@@ -30,3 +30,7 @@ check:x:1000:1000:,,,:/home/check:/bin/bash
 ntp:x:110:118::/nonexistent:/usr/sbin/nologin
 mysql:x:111:120:MySQL Server,,,:/nonexistent:/bin/false
 bind:x:112:121::/var/cache/bind:/usr/sbin/nologin
+ftp:x:113:123:ftp daemon,,,:/srv/ftp:/usr/sbin/nologin
+dovecot:x:114:124:Dovecot mail server,,,:/usr/lib/dovecot:/usr/sbin/nologin
+dovenull:x:115:125:Dovecot login user,,,:/nonexistent:/usr/sbin/nologin
+vmail:x:5000:5000::/home/vmail:/usr/sbin/nologin

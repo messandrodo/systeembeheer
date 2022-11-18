@@ -1,0 +1,29 @@
+#!/bin/bash
+if [ -n $1 ]; then
+	if [ "$EUID" -ne 0 ]; then
+         echo "only root is allowed to do that, bye!"
+         exit
+	fi
+
+
+	mkdir -p /var/www/html/$1;
+	mkdir -p /var/log/apache2/$1;
+
+	echo    "<VirtualHost *:80>
+	ServerName $1
+	DocumentRoot "/var/www/html/$1"
+	ErrorLog "/var/log/apache2/$1"/error.log
+        CustomLog "/var/log/apache2/$1"/access.log combined
+	</VirtualHost>" > "/etc/apache2/sites-available/$1.conf"
+
+	sub=$(echo $1 | grep -oP ".+(?=(\.sander-doggen))")
+	echo  "welcome $sub" > "/var/www/html/$1/index.html"
+
+
+	a2ensite $1
+	systemctl reload apache2
+
+
+else
+	echo "not allowed"
+fi

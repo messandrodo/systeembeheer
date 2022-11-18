@@ -1,36 +1,95 @@
 #!/bin/bash
 
-# Variabele?
-if [ $# -ne 1 ]; then
-#	echo There should be exactly 1 parameter in sudo dns_add_zone [parameter]
-	exit 1
+if [[ $EUID -ne 0 ]]; then
+
+	   echo This script must be run as root
+
+	      exit 0;
+
 fi
 
-echo -e "zone $1.sander-doggen.sb.uclllabs.be {\n	type master;\n	file /etc/bind/forward.$1.sander-doggen.sb.uclllabs.be;\n};" >> /etc/bind/named.conf.mrt-zones
 
 
-touch /etc/bind/forward.$1.sander-doggen.sb.uclllabs.be
 
-# SOA 
-echo "\$TTL 300
-@ IN SOA ns.sander-doggen.sb.uclllabs.be. $1.sander-doggen.sb.uclllabs.be. (
-	   40	;	Serial
-	 56	;	Refresh
-	  8000	;	Retry
-	8000	;	Expire
-	 8000	;	Negative Cache TTL
-; NAME SERVERS
-@	IN	NS	ns.$1.sander-doggen.sb.uclllabs.be.
-@	IN	NS	ns.sander-doggen.sb.uclllabs.be.
+if [ -z $1 ]
+
+then
+
+	echo needs a subdomain
+
+	exit 0;
+
+fi
+
+
+
+
+cat <<EOF>> /etc/bind/named.conf.mrt-zones
+
+zone "$1.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.$1.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+EOF
+
+
+
+cat <<EOF>> /etc/bind/db.$1.sander-doggen.sb.uclllabs.be
+
+;
+
+; BIND data file for local loopback interface
+
+;
+
+\$TTL    600
+
+@       IN      SOA     $1.sander-doggen.sb.uclllabs.be. admin.sander-doggen.sb.uclllabs.be. (
+
+5 ; Serial
+
+                             600         ; Refresh
+
+                             600        ; Retry
+
+                             600        ; Expire
+
+                             600 )       ; Negative Cache TTL
+
+;
+
+       IN      NS     ns.sander-doggen.sb.uclllabs.be.
+
+
 ns	IN	A	193.191.177.214
-@	IN	A	193.191.177.214
-" >> /etc/bind/forward.$1.sander-doggen.sb.uclllabs.be
 
 
-old=$(grep "Serial" /etc/bind/forward.sander-doggen.sb.uclllabs.be | tr -dc '0-9')
-new=$((old + 1))
-sed -i "s/.*Serial.*/\t\t $new ;Serial/g" /etc/bind/forward.sander-doggen.sb.uclllabs.be
 
+EOF
+
+echo -e "$1	IN	NS	ns.sander-doggen.sb.uclllabs.be." >> /etc/bind/forward.sander-doggen.sb.uclllabs.be
+
+
+
+i=$(grep Serial /etc/bind/forward.sander-doggen.sb.uclllabs.be|tr -s [:blank:] | cut -d ' ' -f 2)
+
+echo $i
+
+j=$((i+1))
+
+echo $j
+
+sed -i "s/.*Serial.*/\t\t     $j ;Serial/g" /etc/bind/forward.sander-doggen.sb.uclllabs.be
 
 rndc reload
+
 systemctl restart bind9
+

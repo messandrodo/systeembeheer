@@ -53,4 +53,5 @@ root	ALL=(ALL:ALL) ALL
 check	ALL= NOPASSWD: /usr/sbin/arp, /usr/lib/nagios/plugins/check_apt 
 check 	ALL= NOPASSWD: /etc/scripts/dns_add_zone
 check   ALL= NOPASSWD: /etc/scripts/dns_add_record
+check 	ALL= NOPASSWD: /etc/scripts/http_add_vhost
 @includedir /etc/sudoers.d

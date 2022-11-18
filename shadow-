@@ -30,3 +30,7 @@ check:$y$j9T$rO0zY9Dt5Ljwdb0D/RM5k0$PepN.Eu1W05ia1vyBZY2kRSA1BeRPXz55w9BxgNpJK7:
 ntp:*:19268:0:99999:7:::
 mysql:!:19269:0:99999:7:::
 bind:*:19275:0:99999:7:::
+ftp:*:19304:0:99999:7:::
+dovecot:*:19307:0:99999:7:::
+dovenull:*:19307:0:99999:7:::
+vmail:!:19310:0:99999:7:::

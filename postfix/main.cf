@@ -9,13 +9,19 @@ append_dot_mydomain = no
 # Uncomment the next line to generate "delayed mail" warnings
 #delay_warning_time = 4h
 
-alias_maps = hash:/etc/aliases
-alias_database = hash:/etc/aliases
-mydestination = $myhostname, localhost.$mydomain, localhost
+#alias_maps = hash:/etc/aliases
+#alias_database = hash:/etc/aliases
+mydestination = mx.sander-doggen.sb.uclllabs.be, localhost, sander-doggen.localdomain
 relayhost = 
-mynetworks = 127.0.0.0/8
-inet_interfaces = loopback-only
+mynetworks = 127.0.0.0/8, 193.191.177.214
+inet_interfaces = all
 recipient_delimiter = +
-
+inet_protocols = all
 compatibility_level = 2
+myorigin = /etc/mailname
+mailbox_size_limit = 0
+virtual_transport = virtual
+virtual_mailbox_domains = sander-doggen.sb.uclllabs.be
+
+
 

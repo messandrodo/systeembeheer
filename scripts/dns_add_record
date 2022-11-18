@@ -1,101 +1,125 @@
-#! /bin/sh
+#!/bin/bash
 
-# opnieuw controlleren of er SUDO word gebruikt
-#if [ ! $(sudo echo 0) ]; then exit; fi
+if [[ $EUID -ne 0 ]]; then
 
-if [ $# -eq 0 ]; then
-        exit 1
+	   echo This script must be run as root
+
+	      exit 0;
+
 fi
 
 
-if [ $1 = "-t" ]; then
-        case $2 in
-                "A")
-                        if [ $# -eq 5 ]; then
-                                FILE=/etc/bind/forward.$5
-                                if [ -f $FILE ]; then
-                                        echo "Zone file exists"
-                                        echo "$3        IN      A       $4" >> /etc/bind/forward.$5
 
-                                        old=$(grep "Serial" /etc/bind/forward.$5 | tr -dc '0-9')
-                                        new=$((old + 1))
-                                        sed -i "s/.*Serial.*/\t\t $new ;Serial/g" /etc/bind/forward.$5
-                                        rndc reload
-                                        systemctl restart bind9
-                                        exit 1
-                                else
-                                        exit 1
-                                fi
-                                exit 1
-                        else
-                                exit 1
-                        fi
-                ;;
-                "CNAME")
-                        if [ $# -eq 4 ]; then
-                                FILE=/etc/bind/forward.$4
-                                if [ -f "$FILE" ]; then
 
-                                        echo "$3	IN	CNAME   $4." >> /etc/bind/forward.$4
+if [ -z $1 ]
 
-                                        old=$(grep "Serial" /etc/bind/forward.$4 | tr -dc '0-9')
-                                        new=$((old + 1))
-                                        sed -i "s/.*Serial.*/\t\t $new ;Serial/g" /etc/bind/forward.$4
-                                        rndc reload
-                                        systemctl restart bind9
+then
 
-                                        exit 1
-                                else
-                                        exit 1
-                                fi
-                                exit 1
-                        else
-                                exit 1
-                        fi
-                ;;
-                "MX")
-                        if [ $# -eq 5 ]; then
-                                FILE=/etc/bind/forward.$5
-                                if [ -f "$FILE" ]; then
+	        echo needs input
 
-                                        echo "@         IN      MX      10 $3.$5." >> /etc/bind/forward.$5
-                                        echo "$3        IN      A       $4" >> /etc/bind/forward.$5
+		        exit 0;
 
-                                        old=$(grep "Serial" /etc/bind/forward.$5 | tr -dc '0-9')
-                                        new=$((old + 1))
-                                        sed -i "s/.*Serial.*/\t\t $new ;Serial/g" /etc/bind/forward.$5
-                                        rndc reload
-                                        systemctl restart bind9
+fi
 
-                                        exit 1
-                                else
-                                        exit 1
-                                fi
-                                exit 1
-                        else
-                                exit 1
-                        fi
-                ;;
-                *) ;;
-        esac
+if [ "$1" == "-t" ];then
+
+	while getopts t: option; do
+
+		case ${option}
+
+		in
+
+			t) TYPE=${OPTARG};;
+
+		esac
+
+	done
+
+	if [ "$TYPE" == "MX" ]; then
+
+		ZONE=echo $5
+
+		echo "@		     IN	      MX	10 $3" >> /etc/bind/db.$ZONE
+
+		echo "$3	     IN	       A	$4" >> /etc/bind/db.$ZONE
+
+		i=$(grep Serial /etc/bind/db.$ZONE | cut -d' ' -f1)
+
+		
+
+		j=$((i+1))
+
+		
+
+		sed -i "s/$i ; Serial/$j ; Serial/" /etc/bind/db.$ZONE
+
+		
+
+	elif [ "$TYPE" = "CNAME" ]
+
+	then
+
+		ZONE=$4
+
+		echo "$3	    IN	     CNAME	$4" >> /etc/bind/db.$ZONE
+
+		i=$(grep Serial /etc/bind/db.$ZONE | cut -d' ' -f1)
+
+		
+
+		j=$((i+1))
+
+		
+
+		sed -i "s/$i ; Serial/$j ; Serial/" /etc/bind/db.$ZONE
+
+		
+
+	elif [ "$TYPE" == "A" ]
+
+	then
+
+		ZONE=$5
+
+		echo "$3		IN	A	$4" >> /etc/bind/db.$ZONE
+
+		i=$(grep Serial /etc/bind/db.$ZONE | cut -d' ' -f1)
+
+		
+
+		j=$((i+1))
+
+		
+
+		sed -i "s/$i ; Serial/$j ; Serial/" /etc/bind/db.$ZONE		
+
+	else
+
+		echo no valid dns record
+
+		exit 0;
+
+	fi
+
 else
-        if [ $# -eq  3 ]; then
-                FILE=/etc/bind/forward.$3
-                                if [ -f $FILE ]; then
 
-                                        echo "$1        IN      A       $2." >> /etc/bind/forward.$3
+	ZONE=$3
 
-                                        old=$(grep "Serial" /etc/bind/forward.$3 | tr -dc '0-9')
-                                        new=$((old + 1))
-                                        sed -i "s/.*Serial.*/\t\t $new ;Serial/g" /etc/bind/forward.$3
-                                        rndc reload
-                                        systemctl restart bind9.service
-                                        exit 1
-                                else
-                                        exit 1
-                                fi
-        exit 1
-        else 
-        	exit 1
-        fi
+	echo "$1		IN	A	$2" >> /etc/bind/zones/zone.$ZONE
+
+	i=$(grep Serial /etc/bind/db.$ZONE | cut -d' ' -f1)
+
+	
+
+	j=$((i+1))
+
+	
+
+	sed -i "s/$i ; Serial/$j ; Serial/" /etc/bind/db.$ZONE
+
 fi
+
+
+
+
+rndc reload
