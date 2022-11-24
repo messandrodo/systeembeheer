@@ -7,21 +7,25 @@ $database="check";
 /* Zet de db connectie op */
 $connect = new mysqli($servername,$username,$password,$database);
 
-// Create connection
+/* Kijk of de connectie succesvol gemaakt is
+if($connect->connect_error)
+        echo "Connectie fout:" .$connect->connect_error;
+else
+        echo "Connectie succesvol aangemaakt";*/
 
-// Check connection
-if ($connect->connect_error) {
-  die("Connection failed: " . $connect->connect_error);
-} 
+/* voer de queryy uit*/
 
-// sql to delete a record
-$sql = "DELETE FROM log ORDER BY date asc LIMIT 1";
+$result = $connect->query("DELETE FROM log ORDER BY date asc LIMIT 1");
 
-if ($connect->query($sql) === TRUE) {
-  echo "Record deleted successfully";
-} else {
-  echo "Error deleting record: " . $connect->error;
+
+if ($result->num_rows > 0) {
+    /* Haal data uit de records*/
+    while($row = $result->fetch_assoc()) {
+        echo $row["text"];
+    }
 }
+else
+   echo "No record found";
 
 $connect->close();
 

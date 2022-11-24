@@ -4,17 +4,15 @@
 $TTL	50
 $ORIGIN sander-doggen.sb.uclllabs.be.
 @	IN	SOA	sander-doggen.sb.uclllabs.be. root.sander-doggen.sb.uclllabs.be. (
-		     451 ;Serial
+		     297 ;Serial
 			    50		; Refresh
 			    50		; Retry
 			    50		; Expire
 			    50 )	; Negative Cache TTL
 ;NS
 	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-	IN	NS	ns.michiel-werbrouck.sb.uclllabs.be.
 	IN	NS	ns1.uclllabs.be.
 	IN	NS	ns2.uclllabs.be.
-
 ;A
 @	IN	A	193.191.177.214
 www	IN	A	193.191.177.214
@@ -298,147 +296,3 @@ subzoneaiqu6v	IN	NS	ns.sander-doggen.sb.uclllabs.be.
 subzoneesoo0w	IN	NS	ns.sander-doggen.sb.uclllabs.be.
 subzoneoomoo6	IN	NS	ns.sander-doggen.sb.uclllabs.be.
 subzonebeed1o	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneuho3up	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonebie7ch	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonehae8yi	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneaequ5k	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneeyox5j	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonese8igh	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneneyeo6	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneahdae6	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneaecoc3	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonetii6ge	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonepohb6d	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonerogh9s	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonefee5ya	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonehah1mi	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneeib6th	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneothie0	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneahf5oh	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneupoh8i	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneeh7doo	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneiefoh6	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneco0eeh	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneoosh3s	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneai1iew	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneien6io	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneepos1l	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonevo0chi	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonetia1ee	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneev9iri	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneooz6ae	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneiel9iy	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonejie2zo	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonerai2eu	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneecahh0	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneweini7	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonemei9xa	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonefee8vi	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonerei1ch	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneyaeg4o	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneku0toh	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonedoojo7	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneahtie0	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonephaim8	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonecho9oo	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneaiko0w	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneais8ei	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonedei6ro	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonefain2t	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneohlio9	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonetah4bo	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneouv1ee	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneungu8i	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneefa6ae	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonefao1ix	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneahb7pe	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneheeth5	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneaxaij8	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneue3ien	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonewoa3oo	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneshahl7	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonejieti7	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonebehe3g	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneair2oe	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneae5kah	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneozua6k	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonerie7et	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneiese0e	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneeec6sh	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneahqu0n	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneib0fid	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneoobee3	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonego3fie	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonepuung2	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonewie5ae	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneshah5a	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonegei2pu	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneiek0ie	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneook8wi	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonesheew4	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneat0thi	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneaiwo4u	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonealie4i	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonechie6e	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneaiwuo1	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneeev1qu	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneiukah4	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonechie0i	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonefohde4	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonexae4lo	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonetai2di	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneaech7a	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonetiefa3	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonera1se6	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneyeseu3	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonegie3ah	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneahz2oh	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonephah6i	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonethi0yi	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneaenoh9	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneaiyea4	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneadu4ai	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneteiw5i	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonelorei1	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneaer4qu	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneue2ohs	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonechee7w	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneree8oh	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneuph4om	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneiik0zo	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneziph0a	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneshuyo6	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneohcu5u	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonephae2u	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneuuxog7	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneuqu0ig	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneoeg4ev	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonethoo4p	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneahqu9u	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneaezui6	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonephaxo3	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneuazai3	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneii5och	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneaeche4	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonebee5me	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneeivee4	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneiye8uo	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonezoh8ju	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneoos3sa	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneeirut7	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneeizie9	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneongie1	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonexeech5	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneezoh4d	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzoneeec6ai	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonefei8ah	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonefaer4z	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonehem1th	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonethii6u	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonechoe8u	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonemohph3	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-subzonethee5z	IN	NS	ns.sander-doggen.sb.uclllabs.be.
-$INCLUDE Ksander-doggen.sb.uclllabs.be.+007+05937.key
-$INCLUDE Ksander-doggen.sb.uclllabs.be.+007+09831.key
-$INCLUDE Ksander-doggen.sb.uclllabs.be.+007+05937.key
-$INCLUDE Ksander-doggen.sb.uclllabs.be.+007+09831.key
