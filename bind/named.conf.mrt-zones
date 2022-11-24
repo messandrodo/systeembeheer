@@ -3275,3 +3275,1823 @@ zone "subzonebeed1o.sander-doggen.sb.uclllabs.be"  {
 
 };
 
+
+zone "subzoneuho3up.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneuho3up.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonebie7ch.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonebie7ch.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonehae8yi.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonehae8yi.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneaequ5k.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneaequ5k.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneeyox5j.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneeyox5j.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonese8igh.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonese8igh.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneneyeo6.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneneyeo6.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneahdae6.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneahdae6.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneaecoc3.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneaecoc3.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonetii6ge.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonetii6ge.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonepohb6d.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonepohb6d.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonerogh9s.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonerogh9s.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonefee5ya.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonefee5ya.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonehah1mi.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonehah1mi.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneeib6th.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneeib6th.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneothie0.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneothie0.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneahf5oh.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneahf5oh.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneupoh8i.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneupoh8i.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneeh7doo.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneeh7doo.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneiefoh6.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneiefoh6.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneco0eeh.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneco0eeh.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneoosh3s.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneoosh3s.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneai1iew.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneai1iew.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneien6io.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneien6io.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneepos1l.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneepos1l.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonevo0chi.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonevo0chi.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonetia1ee.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonetia1ee.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneev9iri.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneev9iri.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneooz6ae.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneooz6ae.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneiel9iy.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneiel9iy.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonejie2zo.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonejie2zo.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonerai2eu.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonerai2eu.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneecahh0.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneecahh0.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneweini7.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneweini7.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonemei9xa.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonemei9xa.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonefee8vi.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonefee8vi.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonerei1ch.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonerei1ch.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneyaeg4o.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneyaeg4o.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneku0toh.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneku0toh.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonedoojo7.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonedoojo7.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneahtie0.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneahtie0.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonephaim8.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonephaim8.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonecho9oo.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonecho9oo.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneaiko0w.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneaiko0w.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneais8ei.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneais8ei.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonedei6ro.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonedei6ro.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonefain2t.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonefain2t.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneohlio9.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneohlio9.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonetah4bo.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonetah4bo.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneouv1ee.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneouv1ee.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneungu8i.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneungu8i.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneefa6ae.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneefa6ae.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonefao1ix.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonefao1ix.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneahb7pe.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneahb7pe.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneheeth5.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneheeth5.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneaxaij8.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneaxaij8.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneue3ien.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneue3ien.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonewoa3oo.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonewoa3oo.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneshahl7.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneshahl7.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonejieti7.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonejieti7.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonebehe3g.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonebehe3g.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneair2oe.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneair2oe.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneae5kah.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneae5kah.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneozua6k.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneozua6k.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonerie7et.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonerie7et.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneiese0e.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneiese0e.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneeec6sh.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneeec6sh.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneahqu0n.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneahqu0n.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneib0fid.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneib0fid.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneoobee3.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneoobee3.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonego3fie.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonego3fie.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonepuung2.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonepuung2.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonewie5ae.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonewie5ae.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneshah5a.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneshah5a.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonegei2pu.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonegei2pu.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneiek0ie.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneiek0ie.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneook8wi.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneook8wi.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonesheew4.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonesheew4.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneat0thi.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneat0thi.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneaiwo4u.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneaiwo4u.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonealie4i.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonealie4i.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonechie6e.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonechie6e.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneaiwuo1.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneaiwuo1.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneeev1qu.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneeev1qu.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneiukah4.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneiukah4.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonechie0i.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonechie0i.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonefohde4.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonefohde4.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonexae4lo.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonexae4lo.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonetai2di.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonetai2di.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneaech7a.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneaech7a.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonetiefa3.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonetiefa3.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonera1se6.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonera1se6.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneyeseu3.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneyeseu3.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonegie3ah.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonegie3ah.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneahz2oh.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneahz2oh.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonephah6i.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonephah6i.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonethi0yi.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonethi0yi.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneaenoh9.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneaenoh9.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneaiyea4.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneaiyea4.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneadu4ai.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneadu4ai.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneteiw5i.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneteiw5i.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonelorei1.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonelorei1.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneaer4qu.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneaer4qu.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneue2ohs.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneue2ohs.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonechee7w.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonechee7w.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneree8oh.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneree8oh.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneuph4om.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneuph4om.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneiik0zo.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneiik0zo.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneziph0a.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneziph0a.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneshuyo6.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneshuyo6.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneohcu5u.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneohcu5u.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonephae2u.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonephae2u.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneuuxog7.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneuuxog7.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneuqu0ig.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneuqu0ig.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneoeg4ev.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneoeg4ev.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonethoo4p.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonethoo4p.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneahqu9u.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneahqu9u.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneaezui6.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneaezui6.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonephaxo3.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonephaxo3.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneuazai3.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneuazai3.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneii5och.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneii5och.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneaeche4.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneaeche4.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonebee5me.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonebee5me.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneeivee4.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneeivee4.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneiye8uo.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneiye8uo.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonezoh8ju.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonezoh8ju.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneoos3sa.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneoos3sa.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneeirut7.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneeirut7.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneeizie9.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneeizie9.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneongie1.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneongie1.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonexeech5.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonexeech5.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneezoh4d.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneezoh4d.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzoneeec6ai.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzoneeec6ai.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonefei8ah.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonefei8ah.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonefaer4z.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonefaer4z.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonehem1th.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonehem1th.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonethii6u.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonethii6u.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonechoe8u.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonechoe8u.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonemohph3.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonemohph3.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+
+
+zone "subzonethee5z.sander-doggen.sb.uclllabs.be"  {
+
+        type master;
+
+        file "/etc/bind/db.subzonethee5z.sander-doggen.sb.uclllabs.be";
+
+		
+
+
+
+};
+

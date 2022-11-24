@@ -10,10 +10,21 @@ include "/etc/bind/named.conf.mrt-zones";
 
 zone "sander-doggen.sb.uclllabs.be"{
 	type master;
-	file "/etc/bind/forward.sander-doggen.sb.uclllabs.be";
-	allow-query { any; };
-        allow-transfer { 193.191.177.254; 193.191.177.4; };
+	file "forward.sander-doggen.sb.uclllabs.be.signed";
+	allow-transfer { 
+		193.191.177.254;
+	 	193.191.177.4; 
+	 	193.191.177.192;
+	 };
 };
+
+zone "michiel-werbrouck.sb.uclllabs.be" {
+	type slave;
+	file "/var/cache/bind/slaves/db.michiel-werbrouck.sb.uclllabs.be";
+	masters { 193.191.177.192; };
+};
+
+
 
 
 
