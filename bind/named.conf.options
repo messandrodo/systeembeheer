@@ -1,9 +1,8 @@
 options {
 	directory "/var/cache/bind";
 	recursion no;
-	allow-transfer {none;};
-    dnssec-validation auto;
-	notify yes;
-	
+	querylog yes;
+	allow-transfer {none;};   
+	notify yes;	
 	listen-on-v6 { any; };
 };
